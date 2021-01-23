@@ -8,13 +8,6 @@
 
 ### Enumeration (Information Gathering):
 Starting off with an nmap scan to check which ports are open:
-
-
-![nmap scan](https://github.com/Starscorpio/writeupsss/blob/main/Lamenmap.png)
-
-
-
-
 Ports open:
 -21/ftp
 -22/ssh
