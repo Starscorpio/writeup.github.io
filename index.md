@@ -8,9 +8,9 @@
 
 ### Enumeration (Information Gathering):
 Starting off with an nmap scan to check which ports are open:
-1. 21/ftp
-2. 22/ssh
-3. 139, 445/smb (netbios)
+1. 21 - ftp
+2. 22 - ssh
+3. 139, 445 - smb (netbios)
 
 After doing a full port scan using `nmap -sC -sV -oA nmap/lamefull 10.10.10.3 --max-retries 0`, we get:
 
@@ -20,10 +20,9 @@ After doing a full port scan using `nmap -sC -sV -oA nmap/lamefull 10.10.10.3 --
 
 
 Ports open after full port scan:
-1. 21/ftp
-2. 22/ssh)
-3. 139,445/smb, 139 - (netbios - netbios-ssn Samba smbd 3.0.20-Debian (workgroup: WORKGROUP)) 139 - (netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
-4. 3632 distccd distccd v1 ((GNU) 4.2.4 (Ubuntu 4.2.4-1ubuntu4))
+1. 21 - ftp
+2. 22 - ssh
+3. 139,445 - smb
 
 As we can see that port 21/ftp is open, we can try and connect to it via ftp:
 `ftp 10.10.10.3`
