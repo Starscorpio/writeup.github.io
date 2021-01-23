@@ -15,8 +15,17 @@ Starting off with an nmap scan to check which ports are open:
 
 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-https://miro.medium.com/max/529/1*_2A-7FgpNOMcLenwQqqX7g.png
+Ports open:
+-21/ftp
+-22/ssh
+-139, 445/smb (netbios)
+
+After doing a full port scan using `nmap -sC -sV -oA nmap/lamefull 10.10.10.3 --max-retries 0`, we get:
+
+
+![nmap scan](https://github.com/Starscorpio/writeupsss/blob/main/Lamenmap.png)
+
+
 
 ### Markdown
 ##halsdkhflakdhslfkahd;lskfha;sldkhf;lakshdf;lkahsdf
