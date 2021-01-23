@@ -6,20 +6,21 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Now, check for suids which have there suid bit enabled, by running the LinEnum.sh script:-
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+ 
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+-As we can see that the suid bit is enabled for nmap binary/tool.
+
+Using nmap in interactive mode to get root:
+-nmap --interactive
+---Then enter:
+!sh
+
+--And we are ROOT!!!!
+
 
 **Bold** and _Italic_ and `Code` text
 
