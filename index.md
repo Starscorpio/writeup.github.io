@@ -36,6 +36,7 @@ Using nmap in interactive mode to get root:
 !sh
 
 --And we are ROOT!!!!
+`uname -a`
 
 
 **Bold** and _Italic_ and `Code` text
