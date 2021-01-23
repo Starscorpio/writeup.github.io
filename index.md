@@ -1,6 +1,6 @@
 
 
-![image of bashed](https://miro.medium.com/max/529/1*_2A-7FgpNOMcLenwQqqX7g.png)
+                           ![image of bashed](https://miro.medium.com/max/529/1*_2A-7FgpNOMcLenwQqqX7g.png)
 
 
 
