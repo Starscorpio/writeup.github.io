@@ -9,9 +9,9 @@
 ### Enumeration (Information Gathering):
 Starting off with an nmap scan to check which ports are open:
 Ports open:
--21/ftp
--22/ssh
--139, 445/smb (netbios)
+1. 21/ftp
+2. 22/ssh
+3. 139, 445/smb (netbios)
 
 After doing a full port scan using `nmap -sC -sV -oA nmap/lamefull 10.10.10.3 --max-retries 0`, we get:
 
