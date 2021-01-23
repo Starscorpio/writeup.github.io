@@ -8,7 +8,7 @@
 
 ### Enumeration (Information Gathering):
 Starting off with an nmap scan to check which ports are open:
-![nmap scan](/Users/starscorp1o/Desktop/Lamenmap.png)
+![nmap scan](https://github.com/Starscorpio/writeupsss/blob/main/Lamenmap.png)
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 https://miro.medium.com/max/529/1*_2A-7FgpNOMcLenwQqqX7g.png
