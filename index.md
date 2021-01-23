@@ -3,7 +3,7 @@
 ## Lame
 
 
-   ![image of bashed](/assets/lamepic.png)
+   ![image of bashed](/assets/newlamepic.png)
 
 
 ### Enumeration (Information Gathering):
