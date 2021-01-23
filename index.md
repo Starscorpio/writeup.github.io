@@ -12,7 +12,8 @@ Starting off with an nmap scan to check which ports are open:
 2. 22 - ssh
 3. 139, 445 - smb (netbios)
 
-After doing a full port scan using `nmap -sC -sV -oA nmap/lamefull 10.10.10.3 --max-retries 0`, we get:
+After doing a full port scan using:
+`nmap -sC -sV -oA nmap/lamefull 10.10.10.3 --max-retries 0`, we get:
 
 
 ![nmap scan](/assets/Lamenmap.png)
@@ -22,7 +23,7 @@ After doing a full port scan using `nmap -sC -sV -oA nmap/lamefull 10.10.10.3 --
 Ports open after full port scan:
 1. 21 - ftp
 2. 22 - ssh
-3. 139,445 - smb
+3. 139, 445 - smb
 
 As we can see that port 21/ftp is open, we can try and connect to it via ftp:
 `ftp 10.10.10.3`
