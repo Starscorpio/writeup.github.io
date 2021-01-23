@@ -1,3 +1,17 @@
+
+
+
+https://miro.medium.com/max/529/1*_2A-7FgpNOMcLenwQqqX7g.png
+
+
+
+
+
+
+
+
+
+
 ## Welcome to GitHub Pages
 This is my first blog and I'm using github pages for the first time, so wish me luck.
 You can use the [editor on GitHub](https://github.com/Starscorpio/writeup.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
