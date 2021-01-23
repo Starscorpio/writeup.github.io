@@ -23,7 +23,7 @@ Ports open:
 After doing a full port scan using `nmap -sC -sV -oA nmap/lamefull 10.10.10.3 --max-retries 0`, we get:
 
 
-![nmap scan](../assets/Lamenmap.png)
+![nmap scan](/assets/Lamenmap.png)
 
 
 
