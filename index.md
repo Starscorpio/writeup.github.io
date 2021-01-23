@@ -8,7 +8,6 @@
 
 ### Enumeration (Information Gathering):
 Starting off with an nmap scan to check which ports are open:
-Ports open:
 1. 21/ftp
 2. 22/ssh
 3. 139, 445/smb (netbios)
