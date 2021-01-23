@@ -20,12 +20,12 @@ After doing a full port scan using:
 
 
 
-Ports open after full port scan:
+Ports open after *full port* scan:
 1. 21 - ftp
 2. 22 - ssh
 3. 139, 445 - smb
 
-As we can see that port 21/ftp is open, we can try and connect to it via ftp:
+As we can see that port *21/ftp* is open, we can try and connect to it via ftp:
 `ftp 10.10.10.3`
 
 Port 3432 distccd has a remote command execution.
