@@ -28,6 +28,10 @@ Ports open after full port scan:
 As we can see that port 21/ftp is open, we can try and connect to it via ftp:
 `ftp 10.10.10.3`
 
+Port 3432 distccd has a remote command execution.
+There is an nmap script avaiable for this and you can find it here:
+[port 3432 rce nmap script](https://nmap.org/nsedoc/scripts/distcc-cve2004-2687.html)
+
 
 
 **Bold** and _Italic_ and `Code` text
