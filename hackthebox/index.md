@@ -1,7 +1,7 @@
 # HTB-Writeups
 
-## [Lame](https://github.com/Starscorpio/writeup.github.io/tree/gh-pages/hackthebox/write-ups/lame)
-## [Bashed](https://github.com/Starscorpio/writeup.github.io/tree/gh-pages/hackthebox/write-ups/bashed)
+## [Lame](/hackthebox/write-ups/lame/index.md)
+## [Bashed](/hackthebox/write-ups/bashed/index.md)
 ## Nibbles
 ## Sense
 ## Networked
