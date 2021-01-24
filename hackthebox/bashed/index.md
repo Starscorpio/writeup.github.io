@@ -1,5 +1,5 @@
 
-## [Home](/assets/) [Whoami](/assets/) [Login](/assets) [Sign up](/assets/)
+## [Home](/assets/)      [Whoami](/assets/)       [Login](/assets)      [Sign up](/assets/)
 
 ![bashed](/assets/basheddefault.png)
 
