@@ -1,2 +1,2 @@
-## [Lame](/hackthebox/write-ups/lame)
+## [Lame](/hackthebox/write-ups/lame/index.md)
 ## [Bashed](/hackthebox/write-ups/bashed)
