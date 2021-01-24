@@ -1,5 +1,5 @@
 
-![bashed](https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2F%40andr3w_hilton%2Fhtb-bashed-walkthrough-db22afa2200a&psig=AOvVaw1HIvweMI2HEDw_zqaAwGCo&ust=1611569594694000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPCh39uqtO4CFQAAAAAdAAAAABAD)
+![bashed](/assets/basheddefault.png)
 
 ## Enumeration
 
