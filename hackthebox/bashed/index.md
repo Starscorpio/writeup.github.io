@@ -1,7 +1,7 @@
 
 ![bashed](/assets/basheddefault.png)
 
-## Enumeration
+## Enumeration {style=text-align:center}
 
 Starting off with an nmap scan: `nmap -sC -sV -O -oA nmap/bashed 10.10.10.68`
 
