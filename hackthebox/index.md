@@ -1,6 +1,6 @@
 
 
-## [Lame](/hackthebox/lame)
+## [Lame](/hackthebox/lame/)
 ## [Bashed](/hackthebox/bashed/index.md)
 ## Nibbles
 ## Sense
