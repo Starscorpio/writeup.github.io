@@ -5,4 +5,4 @@
 ### Bug bounty
 ### Recon
 ### Tools
-### vaidehi tare phuski aahe
+### [vaidehi tare phuski aahe](google.com)
