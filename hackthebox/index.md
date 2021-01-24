@@ -1,4 +1,4 @@
-
+#                                                                                                                           [Home](/index.md)
 
 ## [Lame](/hackthebox/lame/)
 ## [Bashed](/hackthebox/bashed/)
