@@ -1,7 +1,9 @@
 
+## [Home](/assets/) [Whoami](/assets/) [Login](/assets) [Sign up](/assets/)
+
 ![bashed](/assets/basheddefault.png)
 
--> ## Enumeration <-
+## Enumeration
 
 Starting off with an nmap scan: `nmap -sC -sV -O -oA nmap/bashed 10.10.10.68`
 
