@@ -69,3 +69,7 @@ Now running !sh to run bash from nmap.
 
 And we have got **ROOT!!!!**
 
+## Other ways to exploit this machine:
+1. Samba version was vulnerable to an RCE.
+2. There was a Privilege Escalation exploit for distccd to get root directly.
+
