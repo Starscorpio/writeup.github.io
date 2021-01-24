@@ -1,6 +1,6 @@
 # HTB-Writeups
 
-## Lame
+
 
 
    ![image of bashed](/assets/newlamepic.png)
