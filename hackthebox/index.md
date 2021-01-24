@@ -1,7 +1,7 @@
 
 
-## [Lame](/hackthebox/lame/index.md)
-## [Bashed](/hackthebox/bashed/index.md)
+## [Lame](/lame/index.md)
+## [Bashed](/bashed/index.md)
 ## Nibbles
 ## Sense
 ## Networked
