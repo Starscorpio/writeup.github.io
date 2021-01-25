@@ -1,10 +1,10 @@
-#                                                                                                                           [Home](/index.md)
+## [Home](../index.md)
 
-## [Lame](/hackthebox/lame/)
-## [Bashed](/hackthebox/bashed/)
-## Nibbles
-## Sense
-## Networked
-## Frolic
-## Sunday
+### [Lame](/hackthebox/lame/)
+### [Bashed](/hackthebox/bashed/)
+### Nibbles
+### Sense
+### Networked
+### Frolic
+### Sunday
 
